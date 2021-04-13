@@ -1,0 +1,127 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  font-size: 17px;
+}
+
+.nav-element {
+  margin-right: 70px;
+}
+
+.apply-nav-button {
+  width: 110px;
+  height: 40px;
+
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+
+  border: 2px solid var(--accent-color);
+  border-radius: var(--button-border-radius);
+
+  font-family: var(--base-font);
+}
+
+#one {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 60%;
+}
+
+#one .title {
+  font-size: 56px;
+  margin: 0;
+  margin-top: 80px;
+}
+
+#one .title span {
+  color: var(--accent-color);
+}
+
+#one .description {
+  color: var(--grey-color);
+  font-size: 22px;
+
+  margin: 15px 0;
+}
+
+#one .apply-button {
+  width: 260px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--white-color);
+  font-size: 22px;
+
+  background: var(--accent-color);
+
+  border-radius: var(--button-border-radius);
+  border: none;
+}
+
+#one .button-icon {
+  width: 30px;
+  margin-left: 30px;
+}
+
+#one .contact-container {
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#one.contact-icon {
+  height: 20px;
+  margin-right: 25px;
+}
+
+#one .twitter-icon {
+  height: 30px;
+}
+
+#one .illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#one .woman {
+  height: 70vh;
+
+  position: absolute;
+  right: 8vw;
+  bottom: 0;
+}
+
+#one .ellipse {
+  height: 70vh;
+
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: -10vh;
+}

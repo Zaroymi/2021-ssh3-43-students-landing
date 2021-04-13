@@ -1,0 +1,67 @@
+
+#two .text_services {
+    text-align: center;
+}
+#two .text_services_description {
+    text-align: center;
+    color: rgba(125, 125, 125, 1);
+}
+
+#two .details {
+    font-size: 14px;
+    line-height: 3px;
+    height: 90px;
+    width: 296px;
+    left: 0px;
+    top: 46px;
+    border-radius: nullpx;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#two .service + #two .service {
+    margin-left: 47px;
+}
+
+#two .btn {
+    border: none;
+    color: blue;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#two .serv_1-3 {
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    flex-wrap: nowrap;
+    margin-left: 146px;
+    margin-right: 146px;
+    margin-bottom: 50px;
+}
+
+#two .serv_4-5 {
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    flex-wrap: nowrap;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-bottom: 126px;
+}
+
+#two .service {
+   line-height: 15px;
+   width: 344px;
+   height: 351px;
+   /* Add shadows to create the "card" effect */
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02);
+   /*transition: 2s;*/
+
+   box-sizing: border-box;
+   padding: 20px;
+   background-color: #FFFFFF;
+
+   border-radius: 15px;
+}

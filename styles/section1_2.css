@@ -1,0 +1,134 @@
+#one_dot_two .top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#one_dot_two .top-menu > logo {
+    width: 46px;
+    height: 52px;
+}
+
+#one_dot_two .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size: 17px;
+}
+
+#one_dot_two .links > a {
+   margin-right: 72px;
+}
+
+#one_dot_two .nav-button {
+    width: 111px;
+    height: 42px;
+
+    background: transparent;
+
+    border: 2px solid #717CFF;
+    border-radius: 11px;
+    
+    font-size: 17px;
+}
+
+
+
+#one_dot_two .main {
+    display: flex;
+    flex-direction: column;
+}
+
+#one_dot_two .title {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: normal;
+
+    /* margin-top: 77px; */
+    margin: 0;
+    margin-top: 110px;
+
+    max-width: 40%;
+}
+
+#one_dot_two .title span {
+    color: #717CFF;
+}
+
+#one_dot_two .description {
+    font-size: 22px;
+    line-height: 38px;
+    color: #7D7D7D;
+    font-style: normal;
+    font-weight: normal;
+
+    margin-top: 15px;
+    margin-right: 0;
+    max-width: 55%;
+}
+
+#one_dot_two .button-descrip {
+    height: 64px;
+    width: 262px;
+    
+    background: #717CFF;
+    border-radius: 11px;
+    border: none;
+
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Alata, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one_dot_two .button-descrip > img {
+    height: 16;
+    width: 18;
+
+    margin-left: 34px;
+}
+
+#one_dot_two .social-networks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#one_dot_two .social-networks > img {
+    height: 20px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+#one_dot_two .images {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#one_dot_two .she {
+    position: absolute;
+    z-index: 1;
+
+    right: 9vw;
+    bottom: 0;
+}
+
+#one_dot_two .oval {
+    position: absolute;
+    z-index: 0;
+
+    bottom: -12vw;
+    right: 0;
+
+    opacity: 0.9;
+}

@@ -1,0 +1,73 @@
+@import "./section1.css";
+@import "./section1_2.css";
+@import "./section2.css";
+@import "./section3.css";
+@import "./section4.css";
+@import "./section5.css";
+
+:root {
+    --white-color: #FFFFFF;
+    --black-color: #373737;
+    --grey-color: #7D7D7D;
+
+    --accent-color: #717CFF;
+
+    --base-font: Alata, sans-serif;
+
+    --button-border-radius: 10px;
+}
+
+body {
+
+    margin: 0;
+    background: var(--white-color);
+
+    color: var(--black-color);
+    font-family: var(--base-font);
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+#preview, header {
+    padding: 40px 10%;
+}
+
+#preview {
+    position: relative;
+    height: 80vh;
+}
+
+#one_dot_two {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+} 
+
+#one, #one_dot_two { 
+    transition: 1s linear;
+}
+
+#one_dot_two {
+    opacity: 0;
+    padding: 40px 10%;
+}
+
+#two {
+    padding: 50px 0;
+}
+
+#five {
+    margin-top: 100px;
+}
+
+#five .part5 {
+    padding-top: 50px;
+}
+
+body > section:nth-child(odd) {
+    background: #fafafa;
+}
